@@ -1,0 +1,266 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Dapper/1.42.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net45/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Dapper.dll": {}
+        }
+      },
+      "Dapper.Extension/1.0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.42.0"
+        },
+        "compile": {
+          "lib/net45/Dapper.Extension.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Dapper.Extension.dll": {}
+        }
+      },
+      "MySqlClient/5.4.2": {
+        "type": "package",
+        "dependencies": {
+          "MySqlConnector": "0.30.0",
+          "Savage.Data": "5.4.2"
+        },
+        "compile": {
+          "lib/net45/Savage.Data.MySqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Savage.Data.MySqlClient.dll": {}
+        }
+      },
+      "MySqlConnector/0.30.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.3.0",
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net45/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MySqlConnector.dll": {}
+        }
+      },
+      "OptimizedDataReader/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/OptimizedDataReader.dll": {}
+        },
+        "runtime": {
+          "lib/net45/OptimizedDataReader.dll": {}
+        }
+      },
+      "Savage.Data/5.4.2": {
+        "type": "package",
+        "dependencies": {
+          "OptimizedDataReader": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/Savage.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Savage.Data.dll": {}
+        }
+      },
+      "System.Buffers/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/System.Buffers.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper/1.42.0": {
+      "sha512": "4tJlY93CSDCdqh6eEYR7au06R+moIgEQs5/rNrPYvSu+kwtlWnUPFzaWPSmk3biS9qKeI/QsJkfVWnSdb95dTw==",
+      "type": "package",
+      "path": "dapper/1.42.0",
+      "files": [
+        "dapper.1.42.0.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net35/Dapper.dll",
+        "lib/net35/Dapper.pdb",
+        "lib/net35/Dapper.xml",
+        "lib/net40/Dapper.dll",
+        "lib/net40/Dapper.pdb",
+        "lib/net40/Dapper.xml",
+        "lib/net45/Dapper.dll",
+        "lib/net45/Dapper.pdb",
+        "lib/net45/Dapper.xml"
+      ]
+    },
+    "Dapper.Extension/1.0.0.1": {
+      "sha512": "n6fojUprDCEMe1ffytdJkrTJXM89eh7KfJw0giG6N81Jn4OGc7o/imYxVyk6LJ24cWONKmHGqas41qeVGAe0nA==",
+      "type": "package",
+      "path": "dapper.extension/1.0.0.1",
+      "files": [
+        "dapper.extension.1.0.0.1.nupkg.sha512",
+        "dapper.extension.nuspec",
+        "lib/net45/Dapper.Extension.dll"
+      ]
+    },
+    "MySqlClient/5.4.2": {
+      "sha512": "P0Z6GVJFZaHMZSDzct6KpA2ANVkvMGR+B/B8KnSE8sN27hzBqmks4K9AYgLxooC9YlLMjhCWu1/vO11zRQPrRA==",
+      "type": "package",
+      "path": "mysqlclient/5.4.2",
+      "files": [
+        "lib/net45/Savage.Data.MySqlClient.dll",
+        "lib/net46/Savage.Data.MySqlClient.dll",
+        "lib/netstandard2.0/Savage.Data.MySqlClient.dll",
+        "mysqlclient.5.4.2.nupkg.sha512",
+        "mysqlclient.nuspec"
+      ]
+    },
+    "MySqlConnector/0.30.0": {
+      "sha512": "UUEeD784b4ribex+DAT+nMC1a9cJIq+OUdcP0u0c8A0p+LqlJyDDCynP/8HiQspe9c9P7EKRAoXRDcDGDO/Dnw==",
+      "type": "package",
+      "path": "mysqlconnector/0.30.0",
+      "files": [
+        "lib/net45/MySqlConnector.dll",
+        "lib/net46/MySqlConnector.dll",
+        "lib/netstandard1.3/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "mysqlconnector.0.30.0.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
+    "OptimizedDataReader/1.1.0": {
+      "sha512": "04dri3ecUsXntxcFZ9JvSTLa4MGLXAGjed6JLNbzg2twg46K47Lc5ukoxjfrkSQnZMQn3HrzRO77jID1Gz4yJA==",
+      "type": "package",
+      "path": "optimizeddatareader/1.1.0",
+      "files": [
+        "lib/net45/OptimizedDataReader.dll",
+        "lib/net46/OptimizedDataReader.dll",
+        "lib/netstandard2.0/OptimizedDataReader.dll",
+        "optimizeddatareader.1.1.0.nupkg.sha512",
+        "optimizeddatareader.nuspec"
+      ]
+    },
+    "Savage.Data/5.4.2": {
+      "sha512": "4DZKPUrIjnOLrzdx4LNa338lrxWxHQLtzXjefSzrMahs9HtM+Wr+By1ASdm267dMn0i8ORFjHZ1sKDJljS8Zmg==",
+      "type": "package",
+      "path": "savage.data/5.4.2",
+      "files": [
+        "lib/net45/Savage.Data.dll",
+        "lib/net46/Savage.Data.dll",
+        "lib/netstandard2.0/Savage.Data.dll",
+        "savage.data.5.4.2.nupkg.sha512",
+        "savage.data.nuspec"
+      ]
+    },
+    "System.Buffers/4.3.0": {
+      "sha512": "ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
+      "type": "package",
+      "path": "system.buffers/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.1/.xml",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "system.buffers.4.3.0.nupkg.sha512",
+        "system.buffers.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.3.0": {
+      "sha512": "npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "Dapper.Extension >= 1.0.0.1",
+      "MySqlClient >= 5.4.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Chintan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Projects\\Safari_Dashboard17\\SCE.Data\\SCE.Data.csproj",
+      "projectName": "SCE.Data",
+      "projectPath": "G:\\Projects\\Safari_Dashboard17\\SCE.Data\\SCE.Data.csproj",
+      "packagesPath": "C:\\Users\\Chintan\\.nuget\\packages\\",
+      "outputPath": "G:\\Projects\\Safari_Dashboard17\\SCE.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Chintan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "Dapper.Extension": {
+            "target": "Package",
+            "version": "[1.0.0.1, )"
+          },
+          "MySqlClient": {
+            "target": "Package",
+            "version": "[5.4.2, )"
+          }
+        }
+      }
+    }
+  }
+}

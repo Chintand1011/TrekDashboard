@@ -1,0 +1,17 @@
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\SCE.Data.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\SCE.Data.pdb
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\Dapper.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\Dapper.Extension.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\Savage.Data.MySqlClient.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\MySqlConnector.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\OptimizedDataReader.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\Savage.Data.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\System.Buffers.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\bin\Debug\net45\System.Threading.Tasks.Extensions.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\obj\Debug\net45\SCE.Data.csprojAssemblyReference.cache
+G:\Projects\Safari_Dashboard17\SCE.Data\obj\Debug\net45\SCE.Data.csproj.CoreCompileInputs.cache
+G:\Projects\Safari_Dashboard17\SCE.Data\obj\Debug\net45\SCE.Data.AssemblyInfoInputs.cache
+G:\Projects\Safari_Dashboard17\SCE.Data\obj\Debug\net45\SCE.Data.AssemblyInfo.cs
+G:\Projects\Safari_Dashboard17\SCE.Data\obj\Debug\net45\SCE.Data.csproj.CopyComplete
+G:\Projects\Safari_Dashboard17\SCE.Data\obj\Debug\net45\SCE.Data.dll
+G:\Projects\Safari_Dashboard17\SCE.Data\obj\Debug\net45\SCE.Data.pdb
